@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+{% include 'modals/scala_game_modal.html' %}
+{% include 'modals/yelp_meets_tinder_modal.html' %}
+{% include 'modals/traverse_modal.html' %}
+{% include 'modals/chess_modal.html' %}
+{% include 'modals/fst_modal.html' %}
+
+
+<section class="latest section">
+    <div class="section-inner">
+        <h2 class="heading">Projects</h2>
+        <div class="content">
+
+            <div class="item featured text-center">
+                <h3 class="title"><a href="#" data-toggle="modal" data-target="#scala-game-modal">Turn Based Strategy Game</a></h3>
+                <p class="summary">Built with Scala using libgdx game framework</p>
+                <div class="featured-image">
+                    <a href="#" data-toggle="modal" data-target="#scala-game-modal">
+                        <img class="img-responsive project-image" src="../../static/images/projects/game.png" alt="project name" />
+                    </a>
+                    <div class="ribbon">
+                        <div class="text">New</div>
+                    </div>
+                </div>
+
+                <div class="desc text-left">
+                    <p>This was my most ambitious project. Over 5,000 lines (including tests), it took me about 160 hours (yeah a timed it). I had quite a bit of free time when I was studying abroad in Spain.</p>
+                    <p>This project was only half completed (you'll notice a theme soon), but the idea is to have cities build workers and soldiers. The workers build farms and mines for resources, while the soldiers attack enemies.</p>
+                </div><!--//desc-->
+                <a class="btn btn-cta-secondary" href="https://bitbucket.org/evanpelle/scala_game" target="_blank"><i class="fa fa-thumbs-o-up"></i> View Source</a>
+            </div><!--//item-->
+            <hr class="divider" />
+            <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12"  href="#" data-toggle="modal" data-target="#yelp-meets-tinder-modal">
+                    <img class="img-responsive project-image" src="../../static/images/projects/yelp_tinder.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="#" data-toggle="modal" data-target="#yelp-meets-tinder-modal">Yelp meets Tinder - Swipe right to find food</a></h3>
+                    <p>To some people food is more important than love. Swipe right to get food that likes you back</p>
+                    <p><a class="more-link" href="https://tranquil-earth-2778.herokuapp.com/" target="_blank"><i class="fa fa-external-link"></i> Try it out! (may take a while to load)</a></p>
+                    <p><a class="more-link" href="https://github.com/evanpelle/yelp_tinder" target="_blank"><i class="fa fa-external-link"></i> View source</a></p>
+                </div><!--//desc-->
+            </div><!--//item-->
+
+            <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12" href="#" data-toggle="modal" data-target="#traverse-modal">
+                    <img class="img-responsive project-image" src="../../static/images/projects/traverse.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="#" data-toggle="modal" data-target="#traverse-modal">Traverse Services - A Survey Website for a Startup</a></h3>
+                    <p>My roommate's friend was making a startup. He needed a survey app, so I learned a bit of ruby on rails and bootstrap to throw this together.</p>
+                    <p><a class="more-link" href="https://newapp1994.herokuapp.com/" target="_blank"><i class="fa fa-external-link"></i> Try it out! (may take a while to load)</a></p>
+                    <p><a class="more-link" href="https://github.com/evanpelle/traverse" target="_blank"><i class="fa fa-external-link"></i> View source</a></p>
+                </div><!--//desc-->
+            </div><!--//item-->
+
+            <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12" href="#" data-toggle="modal" data-target="#fst-modal">
+                    <img class="img-responsive project-image" src="../../static/images/projects/here.png" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"> <a  href="#" data-toggle="modal" data-target="#fst-modal">FleetSupportTool - Checks your Fleet so You Don't Have to</a></h3>
+                    <p>I had an android phone and some free time so I tried getting into some Android development. The idea is that is saves your location when you take pictures and display a map of your travels.</p>
+                </div><!--//desc-->
+            </div><!--//item-->
+
+            <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12" href="#" data-toggle="modal" data-target="#chess-modal">
+                    <img class="img-responsive project-image" src="../../static/images/projects/chess.jpg" alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title"><a href="#" data-toggle="modal" data-target="#chess-modal">Chess Engine in Haskell</a></h3>
+                    <p>An (almost complete) chess engine in Haskell. I wanted to learn functional programming so I started with Haskell, what a strange language. Lack of libraries pushed me into Scala.</p>
+                    <p><a class="more-link" href="https://github.com/evanpelle/haskell_chess" target="_blank"><i class="fa fa-external-link"></i> View Source</a></p>
+                </div><!--//desc-->
+            </div><!--//item-->
+
+        </div><!--//content-->
+    </div><!--//section-inner-->
+</section><!--//section-->

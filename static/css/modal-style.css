@@ -1,0 +1,54 @@
+
+.modal-header {
+    background: #feffef;
+}
+
+.modal-body {
+    background: #feffef;
+    padding: 50px;
+}
+
+.modal-footer {
+    background: #feffef;
+}
+
+.modal-section {
+    background: #feffef; !important;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+/*
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 900px;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal {
+        position: fixed;
+        left: 10em;
+    }
+}
