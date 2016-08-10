@@ -123,7 +123,7 @@ iframe {
 .header {
   padding: 20px 0;
   background: #feffef;
-  border-top: 10px solid #2F3E51;
+  border-top: 10px solid #2f3e51;
 }
 .header .btn {
   margin-top: 60px;
@@ -391,6 +391,9 @@ iframe {
   text-align: left;
 }
 
+.skill + .tooltip > .tooltip.left {
+color: white;}
+
 .skills .skillset .level-bar {
   height: 15px;
   background: #e8e8e8;
@@ -398,6 +401,35 @@ iframe {
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+}
+/* Testimonials section */
+.testimonials .item {
+  margin-bottom: 30px;
+}
+.testimonials .item:last-child {
+  margin-bottom: 0;
+}
+.testimonials .item .quote {
+  color: #666;
+  font-size: 16px;
+  border-left-color: #9fdeb7;
+  margin-bottom: 15px;
+}
+.testimonials .item .quote .fa {
+  color: #79d19a;
+  margin-right: 15px;
+}
+.testimonials .item .source {
+  font-size: 14px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+.testimonials .item .source .name {
+  color: #939ea9;
+  font-weight: 600;
+}
+.testimonials .item .source .title {
+  color: #999;
 }
 /* Education section */
 .education .item {
