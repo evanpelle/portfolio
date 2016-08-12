@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+--log-file - portfolio2:app
