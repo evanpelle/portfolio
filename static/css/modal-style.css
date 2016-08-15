@@ -33,10 +33,18 @@ html {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-/* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
+
+
+@media screen and (min-width: 768px) {
+    .modal-dialog{
+        width:90vh;
+    }
+    .modal {
+        position: fixed;
+        left: 15%;
+    }
 }
+
 
 /*
 @media (min-width: 768px) {

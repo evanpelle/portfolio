@@ -106,19 +106,8 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
-/*
-iframe {
 
-    .header {
-        padding: 0;
-    }
-}
 
-.iframe-wrapper {
-    overflow: auto;
-    -webkit-overflow-scrolling:touch;
-}
-*/
 /* ======= Header ======= */
 .header {
   padding: 20px 0;
