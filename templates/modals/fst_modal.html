@@ -19,20 +19,20 @@
         <p>
             <a href="https://company.here.com/here/" target="_blank">HERE</a> is a mapping company that has street-view
             cars around the world. When I interned over summer I worked almost exclusively on this project. It hadn't
-            really been maintained in several years and when on its last leg. The back-end was mostly in Python with
+            really been maintained in several years and was on its last leg. The back-end was mostly in Python with
             some Bash scripts floating around.
             <br>
             <br>
             When I first started, the server pinged and retrieved log file from each car sequentially,
-            which wasn't a bad ideas several years ago when the fleet had only a dozen or so cars (with only a few being online at a given time),
-            but it has since grown to over 100 vehicles. Some vehicles had poor internet connection so retrieving log file could take several minutes.
+            which wasn't a bad idea several years ago when the fleet had only a dozen or so cars (with only a few being online at a given time),
+            but it had since grown to over 100 vehicles. Some vehicles had poor internet connection so retrieving log file could take several minutes.
             My first task was to use Python's multithreading to ping each car, once the car was known to be online, a new process would fork and
             begin retrieving log files.
             <br>
             <br>
             Next I created better logging, so we would have better knowledge when the cars were online, the internet speed
             of each vehicle, and how big their log files were. Using this we discovered that some log file were over a gigabyte large
-            do to some logging bug.
+            due to some logging bug.
             <br>
             <br>
             Some vehicles were in areas of really poor network connectivity, so I used rsync to retrieve a piece of the log
@@ -40,13 +40,13 @@
             <br>
             <br>
             Since new updates hadn't been deployed in years, the deployment process was very difficult and often led to
-            the server being shutdown. I used Chef to automate deployment, making life much easier. Then I could finally start
+            the server being shutdown. I used Chef to automate deployment, making life much easier. Then we could start
             using continuous deployment.
             <br>
             <br>
-            I had a great experience at HERE. I felt that many of the things I worked on was out of experience level and
+            I had a great experience at HERE. I felt that many of the things I worked on was out of my experience level and
             comfort zone. This really pushed me learn about bash scripting, command line tools, multithreading, automated infrastructure
-            and a whole bunch of other things. It felt great getting paid to learn and become a better programmer.
+            and a whole bunch of other things.
 
         </p>
     </div>
